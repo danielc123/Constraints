@@ -16,19 +16,38 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YB5-jI-i27">
-                                <color key="backgroundColor" red="1" green="0.075800706819999994" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sonicgen.png" translatesAutoresizingMaskIntoConstraints="NO" id="tju-9G-uku"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Sonic The Hedgehog es un juego de la Megadrive muy bueno y maravilloso, además de divertido." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMV-oU-tdM">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="181" id="FXh-MN-yYd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sonic The Hedgehog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ika-gq-nM7">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="dE8-lu-rNg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YB5-jI-i27" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bXO-JA-xzN"/>
-                            <constraint firstItem="YB5-jI-i27" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dg1-SC-g7p"/>
-                            <constraint firstItem="YB5-jI-i27" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lGO-Ib-oeG"/>
-                            <constraint firstItem="YB5-jI-i27" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rY4-y1-9pe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wMV-oU-tdM" secondAttribute="bottom" constant="20" id="EQ6-eB-cnH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tju-9G-uku" secondAttribute="bottom" constant="195" id="FZ1-Qr-sS5"/>
+                            <constraint firstItem="Ika-gq-nM7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="KXe-rd-iGp"/>
+                            <constraint firstItem="tju-9G-uku" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="VwK-rh-ndE"/>
+                            <constraint firstItem="tju-9G-uku" firstAttribute="top" secondItem="Ika-gq-nM7" secondAttribute="bottom" constant="8" id="bhU-zC-VFU"/>
+                            <constraint firstItem="Ika-gq-nM7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e2Y-hm-kN7"/>
+                            <constraint firstItem="wMV-oU-tdM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="m6Z-B3-jbC"/>
+                            <constraint firstItem="tju-9G-uku" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tmF-5n-tWy"/>
+                            <constraint firstItem="wMV-oU-tdM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="y1I-WS-XgW"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -38,4 +57,7 @@
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Sonicgen.png" width="3000" height="4000"/>
+    </resources>
 </document>

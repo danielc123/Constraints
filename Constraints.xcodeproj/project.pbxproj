@@ -13,6 +13,7 @@
 		092903E61E42654F001E2695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092903E41E42654F001E2695 /* Main.storyboard */; };
 		092903E81E42654F001E2695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092903E71E42654F001E2695 /* Assets.xcassets */; };
 		092903EB1E42654F001E2695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092903E91E42654F001E2695 /* LaunchScreen.storyboard */; };
+		092903F31E426EFC001E2695 /* Sonicgen.png in Resources */ = {isa = PBXBuildFile; fileRef = 092903F21E426EFC001E2695 /* Sonicgen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		092903E71E42654F001E2695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		092903EA1E42654F001E2695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		092903EC1E42654F001E2695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092903F21E426EFC001E2695 /* Sonicgen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sonicgen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				092903E71E42654F001E2695 /* Assets.xcassets */,
 				092903E91E42654F001E2695 /* LaunchScreen.storyboard */,
 				092903EC1E42654F001E2695 /* Info.plist */,
+				092903F21E426EFC001E2695 /* Sonicgen.png */,
 				092903DB1E42654F001E2695 /* Supporting Files */,
 			);
 			path = Constraints;
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				092903EB1E42654F001E2695 /* LaunchScreen.storyboard in Resources */,
+				092903F31E426EFC001E2695 /* Sonicgen.png in Resources */,
 				092903E81E42654F001E2695 /* Assets.xcassets in Resources */,
 				092903E61E42654F001E2695 /* Main.storyboard in Resources */,
 			);
