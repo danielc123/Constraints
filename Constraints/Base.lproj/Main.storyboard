@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Mx5-NQ-bnf">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Margenes-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Margenes" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -55,6 +56,98 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+        <!--Porcentajes-->
+        <scene sceneID="fZT-r7-EKb">
+            <objects>
+                <viewController title="Porcentajes" id="6q6-2D-It3" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fyl-YU-NkC"/>
+                        <viewControllerLayoutGuide type="bottom" id="HAX-6w-7jz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2gO-ZX-d2C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sonic The Hedgehog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="N0m-BH-msY">
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sonicgen.png" translatesAutoresizingMaskIntoConstraints="NO" id="UWm-4l-iT9"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Sonic The Hedgehog es un juego de la Megadrive muy bueno y maravilloso, además de divertido." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdV-rF-mgi">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UWm-4l-iT9" firstAttribute="height" secondItem="2gO-ZX-d2C" secondAttribute="height" multiplier="0.35" id="8d9-dM-PYq"/>
+                            <constraint firstItem="UWm-4l-iT9" firstAttribute="leading" secondItem="2gO-ZX-d2C" secondAttribute="leadingMargin" id="MqP-K8-f4o"/>
+                            <constraint firstItem="XdV-rF-mgi" firstAttribute="trailing" secondItem="2gO-ZX-d2C" secondAttribute="trailingMargin" id="Nui-ZA-28D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N0m-BH-msY" secondAttribute="trailing" id="TIr-IH-WCi"/>
+                            <constraint firstItem="XdV-rF-mgi" firstAttribute="leading" secondItem="2gO-ZX-d2C" secondAttribute="leadingMargin" id="VpZ-ui-khC"/>
+                            <constraint firstItem="N0m-BH-msY" firstAttribute="top" secondItem="fyl-YU-NkC" secondAttribute="bottom" id="XbO-sW-TwI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UWm-4l-iT9" secondAttribute="trailing" id="YBl-qF-CLX"/>
+                            <constraint firstItem="N0m-BH-msY" firstAttribute="height" secondItem="2gO-ZX-d2C" secondAttribute="height" multiplier="0.25" id="drH-nL-5MF"/>
+                            <constraint firstItem="XdV-rF-mgi" firstAttribute="top" secondItem="UWm-4l-iT9" secondAttribute="bottom" id="eax-Mg-haN"/>
+                            <constraint firstItem="N0m-BH-msY" firstAttribute="leading" secondItem="2gO-ZX-d2C" secondAttribute="leadingMargin" id="gEc-Jd-cq9"/>
+                            <constraint firstItem="UWm-4l-iT9" firstAttribute="top" secondItem="N0m-BH-msY" secondAttribute="bottom" id="h6u-rb-EfA"/>
+                            <constraint firstItem="HAX-6w-7jz" firstAttribute="top" secondItem="XdV-rF-mgi" secondAttribute="bottom" id="r9L-Hq-qX3"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFt-7A-JYU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150.72463768115944" y="811.14130434782612"/>
+        </scene>
+        <!--Stack-->
+        <scene sceneID="Mde-D1-L4I">
+            <objects>
+                <viewController title="Stack" id="Mx5-NQ-bnf" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bBN-sP-Ce4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fxh-2v-a64"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kmj-se-qaS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sonic The Hedgehog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="mWE-zj-9da">
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sonicgen.png" translatesAutoresizingMaskIntoConstraints="NO" id="lKD-Gi-WGf"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Sonic The Hedgehog es un juego de la Megadrive muy bueno y maravilloso, además de divertido." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dm0-cH-lyJ">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dm0-cH-lyJ" firstAttribute="top" secondItem="lKD-Gi-WGf" secondAttribute="bottom" id="0U8-fa-u4Y"/>
+                            <constraint firstItem="dm0-cH-lyJ" firstAttribute="trailing" secondItem="kmj-se-qaS" secondAttribute="trailingMargin" id="5T9-h3-MB7"/>
+                            <constraint firstItem="lKD-Gi-WGf" firstAttribute="top" secondItem="mWE-zj-9da" secondAttribute="bottom" id="68j-eK-yvH"/>
+                            <constraint firstItem="mWE-zj-9da" firstAttribute="height" secondItem="kmj-se-qaS" secondAttribute="height" multiplier="0.25" id="FdC-fN-8aD"/>
+                            <constraint firstItem="lKD-Gi-WGf" firstAttribute="height" secondItem="kmj-se-qaS" secondAttribute="height" multiplier="0.35" id="H1J-Uv-DIx"/>
+                            <constraint firstItem="mWE-zj-9da" firstAttribute="top" secondItem="bBN-sP-Ce4" secondAttribute="bottom" id="Z6X-Wt-5RD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lKD-Gi-WGf" secondAttribute="trailing" id="a7A-pb-w3f"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mWE-zj-9da" secondAttribute="trailing" id="mFr-KS-cXt"/>
+                            <constraint firstItem="Fxh-2v-a64" firstAttribute="top" secondItem="dm0-cH-lyJ" secondAttribute="bottom" id="p8a-Ko-47Z"/>
+                            <constraint firstItem="mWE-zj-9da" firstAttribute="leading" secondItem="kmj-se-qaS" secondAttribute="leadingMargin" id="rIy-gT-MeW"/>
+                            <constraint firstItem="lKD-Gi-WGf" firstAttribute="leading" secondItem="kmj-se-qaS" secondAttribute="leadingMargin" id="yTq-dY-L5P"/>
+                            <constraint firstItem="dm0-cH-lyJ" firstAttribute="leading" secondItem="kmj-se-qaS" secondAttribute="leadingMargin" id="zbx-Zz-Urt"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uMc-F9-b7A" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151" y="1491"/>
         </scene>
     </scenes>
     <resources>
